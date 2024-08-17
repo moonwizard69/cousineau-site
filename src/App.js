@@ -1,8 +1,6 @@
 import React from 'react';
 import {
   Avatar, 
-  AvatarBadge, 
-  AvatarGroup,
   ChakraProvider,
   Box,  
   Breadcrumb,
