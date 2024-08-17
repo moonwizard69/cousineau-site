@@ -1,5 +1,8 @@
 import React from 'react';
 import {
+  Avatar, 
+  AvatarBadge, 
+  AvatarGroup,
   ChakraProvider,
   Box,  
   Breadcrumb,
@@ -17,8 +20,8 @@ import { Logo } from './Logo';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-    <Breadcrumb>
-      <BreadcrumbItem>
+    <Breadcrumb fontWeight='bold' fontSize='lg'>
+      <BreadcrumbItem isCurrentPage>
         <BreadcrumbLink href='#'>Home</BreadcrumbLink>
       </BreadcrumbItem>
 
@@ -26,7 +29,7 @@ function App() {
         <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
       </BreadcrumbItem>
 
-       <BreadcrumbItem isCurrentPage>
+       <BreadcrumbItem>
         <BreadcrumbLink href='#'>Work With Me </BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
@@ -35,15 +38,16 @@ function App() {
          <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             <Logo h="20vmin" pointerEvents="none" />
-            <Text fontSize='5xl'>Welcome to the personal website of</Text>
             <Text fontSize='6xl'>Matt Cousineau</Text>
 
             <Text>
-              I'm a web developer, investor, and family man/crypto enthusiast/gamer/shitposter/outdoorsman.  
+              I'm a full-stack developer, investor, entrepreneur, and family man/crypto enthusiast/gamer/shitposter/outdoorsman.  
               <br />
-              I've worked for over a decade developing TradFi systems for banks and insurance companies, as well as occasionally moonlighting in Ethereum DeFi.   
+              I've worked for over a decade developing TradFi systems for banks and insurance companies, as well as occasionally moonlighting in Ethereum DeFi. 
+              <br />
+                
             </Text>
-            <Text fontSize='xs'>i liked the stock vsg icon so i left it, sue me (jk plz don't)</Text>
+            <Text fontSize='xs'>i liked the stock chakra vsg icon so i left it, sue me (jk plz don't)</Text>
             <Link
               color="teal.500"
               href="https://www.github.com/mattcousineau"
@@ -60,7 +64,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              X
+               <Avatar size='lg' name='Christian Nwamba' src='wizard.jpg' />
             </Link>
           </VStack>
         </Grid>
