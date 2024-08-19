@@ -39,7 +39,7 @@ function App() {
             <Text fontSize='6xl'>Matt Cousineau</Text>
 
             <Text>
-              I'm a full-stack developer, investor, entrepreneur, and family man/crypto enthusiast/gamer/shitposter/outdoorsman.  
+              I'm a full-stack developer, investor, entrepreneur, and family man/crypto enthusiast/gamer/shitposter.  
               <br />
               I've worked for over a decade developing TradFi systems for banks and insurance companies, as well as occasionally moonlighting in Ethereum DeFi. 
               <br />
