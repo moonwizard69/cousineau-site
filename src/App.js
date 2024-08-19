@@ -28,7 +28,7 @@ function App() {
       </BreadcrumbItem>
 
        <BreadcrumbItem>
-        <BreadcrumbLink href='#'>Work With Me </BreadcrumbLink>
+        <BreadcrumbLink href='#'>Work With Me</BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
       <Box textAlign="center" fontSize="xl">
