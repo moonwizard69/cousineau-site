@@ -24,7 +24,7 @@ function App() {
       </BreadcrumbItem>
 
       <BreadcrumbItem>
-        <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
+        <BreadcrumbLink href='mailto:mjcousineau1@gmail.com'>Contact</BreadcrumbLink>
       </BreadcrumbItem>
 
        <BreadcrumbItem>
@@ -48,7 +48,7 @@ function App() {
             <Text fontSize='xs'>i liked the stock chakra vsg icon so i left it, sue me (jk plz don't)</Text>
             <Link
               color="teal.500"
-              href="https://www.github.com/mattcousineau"
+              href="https://www.github.com/moonwizard69"
               fontSize="2xl"
               target="_blank"
               rel="noopener noreferrer"
