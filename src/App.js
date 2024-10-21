@@ -250,7 +250,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Avatar size='lg' name='Christian Nwamba' src='wizard.jpg' />
+                  <Avatar size='lg' name='Matt' src='wizard.jpg' />
                 </Link>
               </VStack>
             </Grid>
